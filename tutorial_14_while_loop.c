@@ -2,7 +2,7 @@
 
 int main()
 {
-     int i=1;
+     int i=1;    // i=0 if we want to get 0 also
 
      while (i<45)
      {
