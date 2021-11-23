@@ -2,26 +2,19 @@
 
 int main()
 {
-    int m1,m2;
-    printf("entre your marks in maths and science\n");
-    scanf("%d %d" ,&m1,&m2);
+    int num ;
+    scanf("%d", &num);
 
-    if (m1>=50 && m2>=50)
+    int size=4,  i;
+    int sum=0;
+    for ( i = 0; i < size; i++)
     {
-         printf(" You have won $45\n");
+        int rem=num%10;
+            sum=sum+rem;
+            num=num/10;
     }
     
-    else if (m1<50 || m2<50 )
-    {
-        printf("You have won $25");
-    }
+     printf("%d",sum);
 
-    else
-    {
-        printf(" Sorry you have failed you didnot won anything\n");
-    }
-    
-
-    
     return 0;
 }
