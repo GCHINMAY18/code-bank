@@ -1,31 +1,43 @@
 #include<stdio.h>
-
+/*
 int main()
 {
-    float num ;
-    printf("Entre a number\n");
-    scanf("%f",&num );
+   int i,j;
+  for ( i = 0; i <5; i++)
+  {
+      for(j=0;j<=i;j++)
+      {
+      printf("*");
+      
+      }
+       printf("\n");
+  }
 
-     if (num<0.0)
-     {
-        printf("The number %0.1f which you have   entered is negative ",num);
-     }
-    
-    else if (num>0.0)
+  
+   
+}
+*/
+//nested multiplication table
+int main()
+{
+  int n,k;
+  printf("entre the value of n and k\n");
+  scanf("%d",&n);
+  printf("\n");
+  scanf("%d",&k);
+
+
+  for (int i=1; i<=n; i++)
+  {
+    printf("Multiplication table of %d is\n");
+    for (int j=1; j<=k; j++)
     {
-        printf("The number %0.1f which you have   entered is positive" , num);
-
+      
+      printf("%d*%d =%d\n",i,j,i*j);
     }
-     else if (num==0.0){                                                     //use double equal to for comparison because single equalto is assignmeant operator
-         printf("The number is zero ");
-     }
     
-    else{
-    printf("Please entre a valid number");
-    }
-         
-        
-     
-
-    return 0;
+  }
+  
+  
+  return 0;
 }
