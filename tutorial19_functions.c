@@ -30,7 +30,7 @@ int takenumber()
 void name()
 {
     int n;
-   printf("entre the value of n\n");         // Function code example of without argument  and without return value
+   printf("entre the value of n\n");        // Function code example of without argument  and without return value 
     scanf("%d",&n);
     printf("The value of n is :%d",n);
     
@@ -45,8 +45,8 @@ void name()
 int main()                       
 {
     int a,b,c,d,e;
-    a=9;
-    b=87;
+    //a=9;
+    //b=87;
     c=sum(a,b);
     // printstar(7);
     //printf("\n the sum is: %d",c);

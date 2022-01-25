@@ -1,28 +1,27 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int natural(int n)
 {
-    if (n)
+    if (n==0)
     {
-        natural(n-1);
+        return 0;
     }
-    
+
     else
     {
-        return n;
+     natural(n - 1);
     }
 
-    printf("%-3d",n);
+    printf("%-3d", n);
 }
-
 
 int main()
 {
-     int num;
+    int num;
     printf("Entre the natural number till where you want natural number  \n");
-    scanf("%d",&num);
+    scanf("%d", &num);
 
     natural(num);
-    
+
     return 0;
 }

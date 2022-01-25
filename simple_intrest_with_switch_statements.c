@@ -11,7 +11,7 @@ int main()
   scanf("%d",&r);
   
   char ask;
-  printf("If tou want to get the value of SI as Yearly , Half yearly  or quaterly entre y,h,q respectively\n");
+  printf("If you want to get the value of SI as Yearly , Half yearly  or quaterly entre y,h,q respectively\n");
   scanf("%s", &ask);
 
   switch (ask)
