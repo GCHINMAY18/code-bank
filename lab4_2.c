@@ -49,7 +49,7 @@ int main()
 
 
 //if one number is multiple number of other 
-
+/*
 int main()
 {
     int a,b;
@@ -75,6 +75,7 @@ int main()
 
     return 0;
 }
+*/
 
 
 
@@ -114,6 +115,38 @@ int main()
         printf("Entre valid number  ");
     }
 
+    return 0;
+}
+*/
+
+//wether alphabet or not using conditional operators 
+int main()
+{
+    char alphabet;
+    printf("Entre a alphabet\n");
+    scanf("%c",&alphabet);
+
+    (alphabet>='a' && alphabet<='z') ||    (alphabet>='A' && alphabet<='Z')?printf("\nIt is a alphabet"):printf("\nIt is not a alphabet");
+
+
+    return 0;
+}
+
+
+//smallest number among 3 numbers
+/*
+int main()
+{
+    int num1,num2,num3;
+    printf("Enter three numbers: ");
+    
+    scanf("%d %d %d",&num1,&num2,&num3);
+    
+       int result=num3<(num1<num2?num1:num2)?num3:((num1<num2)? num1:num2);
+       
+        printf("\n The Smallest number is: %d ",result);
+        
+    
     return 0;
 }
 */
